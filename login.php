@@ -7,7 +7,7 @@
 
 <form id="login" action="login_check.php" method="post">
     <label>E-pošta</label>
-    <input type="email" name="email" required="required" />
+    <input type="email" name="mail" required="required" />
     <label>Geslo</label>
     <input type="password" name="pass" required="required" />
     <br />
