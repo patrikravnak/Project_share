@@ -1,14 +1,11 @@
 			<footer id="footer">
 				<div class="inner">
-					<h2>Get In Touch</h2>
+					<h2>Projekt - Spletni testi</h2>
 					<ul class="actions">
-						<li><span class="icon fa-phone"></span> <a href="#">(000) 000-0000</a></li>
-						<li><span class="icon fa-envelope"></span> <a href="#">information@untitled.tld</a></li>
-						<li><span class="icon fa-map-marker"></span> 123 Somewhere Road, Nashville, TN 00000</li>
+						<li><span class="icon fa-user"></span> Patrik Ravnak</li>
+						<li><span class="icon fa-pencil"></span> 4. TRB</li>
+						<li><span class="icon fa-map-marker"></span> Elektro in računalniška šola Velenje</li>
 					</ul>
-				</div>
-				<div class="copyright">
-					&copy; Untitled. Design <a href="https://templated.co">TEMPLATED</a>. Images <a href="https://unsplash.com">Unsplash</a>.
 				</div>
 			</footer>
 
