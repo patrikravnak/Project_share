@@ -13,9 +13,9 @@
 				<nav class="left">
 					<a href="#menu"><span>Meni</span></a>
 				</nav>
-				<a href="index.html" class="logo">Spletni testi</a>
+				<a href="index.php" class="logo">Spletni testi</a>
 				<nav class="right">
-					<a href="#" class="button alt">Prijava</a>
+					<a href="login.php" class="button alt">Prijava</a>
 				</nav>
 			</header>
 
