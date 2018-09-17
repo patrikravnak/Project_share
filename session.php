@@ -6,9 +6,9 @@
                 '/project_share/index.php'];
     
     
-    if (!isset($_SESSION['userk_id']) && 
+    if (!isset($_SESSION['user_id']) && 
             !in_array($_SERVER['REQUEST_URI'], $allowed)) {
         header("Location: login.php");
     }
 
-?>
+?>  
