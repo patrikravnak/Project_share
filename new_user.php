@@ -15,8 +15,9 @@ if (!empty($first_name) && !empty($last_name) && !empty($mail) && !empty($pass1)
     $pass = sha1($salt.$pass1);
     
     $query = "INSERT INTO users(mail,pass) "
-            . "VALUES ('$mail','$pass')";
-    mysqli_query($link, $query);
+    . "VALUES ('$mail','$pass')";
+    $stmt = $pdo->prepare($query);
+    $stmt->execute([$title,$description]);
     header("Location: login.php");
     
 }
