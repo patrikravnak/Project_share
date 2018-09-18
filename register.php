@@ -4,7 +4,7 @@
 <h1 style="margin: 2% 0 0 20%;">Registracija</h1>
 <hr>
 
-<form id="register" action="user_insert.php" method="post">
+<form id="register" action="new_user.php" method="post">
     <label>Ime</label>
     <input type="text" name="first_name" placeholder="Vnesi ime" required="required" />
     <label>Priimek</label>
