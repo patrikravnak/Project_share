@@ -15,7 +15,18 @@
 				</nav>
 				<a href="index.php" class="logo">Spletni testi</a>
 				<nav class="right">
-					<a href="login.php" class="button alt">Prijava</a>
+                                        <?php 
+                                            if (isset($_SESSION['user_id'])) 
+                                            {
+                                                echo '<a href="logout.php" class="button alt">Odjava</a>';
+                                            }
+                                            else 
+                                            {
+                                                echo '<a href="login.php" class="button alt">Prijava</a>';
+                                                echo " ";
+                                                echo '<a href="register.php" class="button alt">Registracija</a>';
+                                            }
+                                        ?>
 				</nav>
 			</header>
 
