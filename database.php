@@ -1,16 +1,17 @@
 <?php
+$host = 'localhost';
+$database = 'project_share';
+$user = 'root';
+$pass = '';
+$charset = 'utf8_slovenian_ci';
+$dsn = "mysql:host=$host;dbname=$database;charset=$charset";
+$opt = [
+PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+PDO::ATTR_EMULATE_PREPARES => false,
+];
 
-$server = 'localhost';
-$uporabnik = 'root';
-$geslo = '';
-$baza = 'project_share';
+$pdo = new PDO($dsn, $user, $pass, $opt);
 
-$link = mysqli_connect($server, $user, $pass, $database);
-
-if (!$link) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-
-mysqli_query($link, "SET NAMES 'utf8'");
 $salt = "znj192nijnz";
 ?>
