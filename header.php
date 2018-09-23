@@ -34,6 +34,7 @@
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="index.php">Domov</a></li>
+                                        <li><a href="subjects.php">Predmeti</a></li>
 				</ul>
 				<ul class="actions vertical">
 					<li><a href="#" class="button fit">Prijava</a></li>
